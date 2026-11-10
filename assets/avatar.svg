@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420" role="img" aria-labelledby="avatarTitle avatarDesc">
+  <title id="avatarTitle">Developer avatar of AROMIRE KEHINDE</title>
+  <desc id="avatarDesc">Stylised illustration of a developer wearing a violet hoodie and glasses, working on a glowing laptop.</desc>
+
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="38%" r="72%">
+      <stop offset="0%" stop-color="#3b1a6e"/>
+      <stop offset="55%" stop-color="#1a0e33"/>
+      <stop offset="100%" stop-color="#0b0618"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#7c3aed" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hoodie" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b45f0"/>
+      <stop offset="48%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#3f0f7a"/>
+    </linearGradient>
+    <linearGradient id="hoodieInner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c1189"/>
+      <stop offset="100%" stop-color="#2a0a52"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0c3a2"/>
+      <stop offset="100%" stop-color="#d79a74"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a1740"/>
+      <stop offset="100%" stop-color="#150a24"/>
+    </linearGradient>
+    <linearGradient id="laptopBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241041"/>
+      <stop offset="100%" stop-color="#120724"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="55%" stop-color="#8b2fe0"/>
+      <stop offset="100%" stop-color="#5b21b6"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e9d5ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="soft2" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <clipPath id="frameClip">
+      <rect x="10" y="10" width="400" height="400" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <!-- Background -->
+    <rect x="10" y="10" width="400" height="400" rx="26" fill="url(#bgGlow)"/>
+
+    <!-- Grid -->
+    <g stroke="#a855f7" stroke-opacity="0.10" stroke-width="1">
+      <path d="M10 70h400M10 130h400M10 190h400M10 250h400M10 310h400M10 370h400"/>
+      <path d="M70 10v400M130 10v400M190 10v400M250 10v400M310 10v400M370 10v400"/>
+    </g>
+
+    <!-- Halo -->
+    <circle cx="210" cy="196" r="168" fill="url(#halo)"/>
+
+    <!-- Floating code glyphs -->
+    <g font-family="'JetBrains Mono', monospace" fill="#c084fc" opacity="0.5" font-weight="700">
+      <text x="48" y="96" font-size="24">&lt;/&gt;</text>
+      <text x="326" y="128" font-size="20">{ }</text>
+      <text x="60" y="330" font-size="18">( )</text>
+      <text x="322" y="308" font-size="22">&lt;div&gt;</text>
+    </g>
+
+    <!-- Glow behind character -->
+    <ellipse cx="210" cy="300" rx="150" ry="60" fill="#7c3aed" opacity="0.35" filter="url(#soft)"/>
+
+    <!-- Body / hoodie -->
+    <path d="M110 420c0-72 30-118 100-118s100 46 100 118z" fill="url(#hoodie)"/>
+    <path d="M110 420c0-72 30-118 100-118s100 46 100 118z" fill="none" stroke="url(#rim)" stroke-opacity="0.35" stroke-width="1.5"/>
+
+    <!-- Hoodie collar -->
+    <path d="M162 306c14 26 34 40 48 40s34-14 48-40c-16-8-31-12-48-12s-32 4-48 12z" fill="url(#hoodieInner)"/>
+
+    <!-- Drawstrings -->
+    <path d="M188 322v34M232 322v34" stroke="#c084fc" stroke-width="3.4" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="188" cy="360" r="4" fill="#e9d5ff"/>
+    <circle cx="232" cy="360" r="4" fill="#e9d5ff"/>
+
+    <!-- Neck -->
+    <path d="M188 258h44v40c0 10-10 16-22 16s-22-6-22-16z" fill="#c98a67"/>
+
+    <!-- Head -->
+    <ellipse cx="210" cy="196" rx="66" ry="76" fill="url(#skin)"/>
+
+    <!-- Ears -->
+    <circle cx="144" cy="200" r="13" fill="#d79a74"/>
+    <circle cx="276" cy="200" r="13" fill="#d79a74"/>
+
+    <!-- Hair -->
+    <path d="M144 186c-6-52 26-84 66-84s72 32 66 84c-4-30-14-44-30-52-10 16-30 24-52 22-20-2-34-12-40-26-8 12-9 30-10 56z" fill="url(#hair)"/>
+    <path d="M150 172c14-30 40-46 60-46 22 0 44 16 58 46-16-22-36-32-58-32s-44 10-60 32z" fill="#3d2360" opacity="0.6"/>
+
+    <!-- Brows -->
+    <path d="M172 176c8-6 20-6 28-1M220 175c8-5 20-5 28 1" stroke="#2a1740" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+    <!-- Glasses -->
+    <g>
+      <rect x="158" y="186" width="52" height="42" rx="14" fill="#1b1030" fill-opacity="0.55" stroke="#e9d5ff" stroke-opacity="0.85" stroke-width="3"/>
+      <rect x="210" y="186" width="52" height="42" rx="14" fill="#1b1030" fill-opacity="0.55" stroke="#e9d5ff" stroke-opacity="0.85" stroke-width="3"/>
+      <path d="M210 202h0" stroke="#e9d5ff" stroke-width="3"/>
+      <path d="M204 204h12" stroke="#e9d5ff" stroke-opacity="0.85" stroke-width="3" stroke-linecap="round"/>
+      <path d="M158 202l-16-4M262 202l16-4" stroke="#e9d5ff" stroke-opacity="0.85" stroke-width="3" stroke-linecap="round"/>
+      <!-- Lens shine -->
+      <path d="M166 190l16 30" stroke="#ffffff" stroke-opacity="0.35" stroke-width="6" stroke-linecap="round"/>
+      <path d="M218 190l16 30" stroke="#ffffff" stroke-opacity="0.28" stroke-width="6" stroke-linecap="round"/>
+    </g>
+
+    <!-- Eyes -->
+    <circle cx="184" cy="208" r="5.5" fill="#20122f"/>
+    <circle cx="236" cy="208" r="5.5" fill="#20122f"/>
+    <circle cx="186" cy="206" r="1.9" fill="#fff" opacity="0.9"/>
+    <circle cx="238" cy="206" r="1.9" fill="#fff" opacity="0.9"/>
+
+    <!-- Nose + smile -->
+    <path d="M210 216v14c0 4-3 6-7 7" stroke="#c98a67" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+    <path d="M194 246c9 8 23 8 32 0" stroke="#a85f43" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+    <!-- Laptop -->
+    <g>
+      <ellipse cx="210" cy="392" rx="112" ry="16" fill="#000" opacity="0.35" filter="url(#soft2)"/>
+      <path d="M126 356h168l16 30H110z" fill="url(#laptopBody)" stroke="url(#rim)" stroke-opacity="0.4" stroke-width="1.5"/>
+      <rect x="146" y="286" width="128" height="74" rx="9" fill="url(#laptopBody)" stroke="url(#rim)" stroke-opacity="0.45" stroke-width="1.6"/>
+      <rect x="154" y="294" width="112" height="58" rx="6" fill="url(#screen)" opacity="0.95"/>
+      <g stroke="#f3e8ff" stroke-opacity="0.9" stroke-width="3" stroke-linecap="round">
+        <path d="M166 310h34M166 322h56M166 334h26"/>
+      </g>
+      <rect x="192" y="362" width="36" height="5" rx="2.5" fill="#c084fc" opacity="0.7"/>
+    </g>
+
+    <!-- Arms / hands -->
+    <path d="M124 384c-6-26 4-46 22-52 8 14 12 30 10 46z" fill="url(#hoodie)"/>
+    <path d="M296 384c6-26-4-46-22-52-8 14-12 30-10 46z" fill="url(#hoodie)"/>
+    <circle cx="152" cy="376" r="12" fill="url(#skin)"/>
+    <circle cx="268" cy="376" r="12" fill="url(#skin)"/>
+
+    <!-- Screen glow on face -->
+    <ellipse cx="210" cy="220" rx="70" ry="40" fill="#a855f7" opacity="0.10" filter="url(#soft)"/>
+
+    <!-- Frame border -->
+    <rect x="10" y="10" width="400" height="400" rx="26" fill="none" stroke="url(#rim)" stroke-opacity="0.5" stroke-width="1.6"/>
+  </g>
+</svg>
