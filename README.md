@@ -8,7 +8,7 @@ Theme: deep black + glowing violet. Built with vanilla HTML, CSS and JavaScript 
 
 - **Hero** — name, role, tagline (DESIGN. DEVELOP. DELIVER.), introduction and developer avatar
 - **About Me**
-- **My Skills** — HTML and CSS
+- **My Skills** — HTML, CSS and JavaScript
 - **My Services** — Website, Web App and Mobile App Development
 - **My Projects** — placeholders, ready for real projects
 - **Contact Me** — WhatsApp and email, with clickable buttons and a message form

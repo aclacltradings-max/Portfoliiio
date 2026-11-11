@@ -600,7 +600,8 @@ body.has-cursor .cursor-glow { opacity: 1; }
 }
 .chip-1 { top: 8%; left: -6%; animation-delay: 0s; }
 .chip-2 { top: 42%; right: -8%; animation-delay: 0.9s; }
-.chip-3 { bottom: 7%; left: 4%; animation-delay: 1.7s; color: var(--violet-200); }
+.chip-3 { bottom: 7%; left: 4%; animation-delay: 1.7s; }
+.chip-4 { top: 62%; left: -8%; animation-delay: 2.5s; color: var(--violet-200); }
 @keyframes chipFloat {
   0%, 100% { translate: 0 0; }
   50% { translate: 0 -12px; }
@@ -779,7 +780,7 @@ body.has-cursor .cursor-glow { opacity: 1; }
    ========================================================= */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 .skill-card {
@@ -802,6 +803,7 @@ body.has-cursor .cursor-glow { opacity: 1; }
 }
 .html-logo { color: #e34f26; background: rgba(227, 79, 38, 0.12); }
 .css-logo { color: #4aa8e0; background: rgba(74, 168, 224, 0.12); }
+.js-logo { color: #f7df1e; background: rgba(247, 223, 30, 0.12); }
 
 .skill-meta { flex: 1; min-width: 0; }
 .skill-meta h3 {
@@ -1235,6 +1237,7 @@ body.has-cursor .cursor-glow { opacity: 1; }
   .hero { min-height: auto; padding-top: calc(var(--header-h) + 60px); }
   .scroll-cue { display: none; }
   .about-grid { grid-template-columns: 1fr; }
+  .skills-grid { grid-template-columns: repeat(2, 1fr); }
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .projects-grid { grid-template-columns: repeat(2, 1fr); }
   .contact-grid { grid-template-columns: 1fr; }
@@ -1310,6 +1313,7 @@ body.has-cursor .cursor-glow { opacity: 1; }
   .float-chip { padding: 7px 12px; font-size: 0.7rem; }
   .chip-1 { left: -2%; }
   .chip-2 { right: -3%; }
+  .chip-4 { left: -4%; top: 58%; }
 
   .about-cta .btn { width: 100%; }
   .contact-card { padding: 15px 16px; gap: 13px; }
